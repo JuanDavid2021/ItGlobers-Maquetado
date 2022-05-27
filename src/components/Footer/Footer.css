@@ -1,0 +1,30 @@
+.compra{
+  display:flex;
+}
+
+.compra img{
+width: 70px;  
+}
+
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.5);
+    margin-bottom: 10px;
+}
+.logoFooter img{
+  width:100px;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+}
+
+.social img{
+  width:20px;
+  height:20px;
+  margin-left: 20px;
+}
+
