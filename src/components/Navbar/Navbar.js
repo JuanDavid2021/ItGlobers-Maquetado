@@ -11,20 +11,20 @@ export const Navbar = () => {
        <ul className='menuProducts'>
             <li>
                 <img src="./assets/logos/pufi_puff.png" className='icon'/>    
-                <Link to="pufi_puff" smooth="true" duration={1500}>PUFI PUFF</Link>  
+                <Link to="pufi_puff" smooth="true" className="product" duration={1500}>PUFI PUFF</Link>  
             </li>
 
             <li>
                 <img src="./assets/logos/pufi_rain.png" className='icon'/>     
-                <Link to="pufi_rain" smooth="true" duration={1500}>PUFI RAIN</Link>  
+                <Link to="pufi_rain" smooth="true" className="product" duration={1500}>PUFI RAIN</Link>  
                 </li>
                 <li>
                 <img src="./assets/logos/pufi_cart.png" className='icon'/>     
-                <Link to="pufi_cart" smooth="true" duration={1500}>PUFI CART</Link>  
+                <Link to="pufi_cart" smooth="true" className="product" duration={1500}>PUFI CART</Link>  
                 </li>
                 <li>
                 <img src="./assets/logos/pufi_nap.png" className='icon'/>     
-                <Link to="pufi_nap" smooth="true" duration={1500}>PUFI NAP</Link>  
+                <Link to="pufi_nap" smooth="true" className="product" duration={1500}>PUFI NAP</Link>  
             </li>
 
         </ul> 
