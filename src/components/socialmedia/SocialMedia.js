@@ -15,15 +15,15 @@ export const SocialMedia = () => {
      <div className='grid1'>
      <div className='container1'> 
         <div>
-        <iframe width="200"  height="250" src="http://instagram.com/p/CeABdbqtSxP/embed" scrolling="yes" frameborder="0" style={{top:"95px"}}></iframe>
+        <iframe width="200"  height="250" src="http://instagram.com/p/CeABdbqtSxP/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
         </div> 
 
         <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CeCmSvtNTYa/embed" scrolling="yes" frameborder="0" style={{top:"95px"}}></iframe>
+        <iframe width="200"  height="250" src="http://instagram.com/p/CeCmSvtNTYa/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
         </div> 
 
         <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CdzExWiu2qf/embed" scrolling="yes" frameborder="0" style={{top:"95px"}}></iframe>
+        <iframe width="200"  height="250" src="http://instagram.com/p/CdzExWiu2qf/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
         </div> 
       </div> 
     </div>  
@@ -31,15 +31,15 @@ export const SocialMedia = () => {
     <div className='grid2'>
      <div className='container2'> 
         <div>
-        <iframe width="200"  height="250" src="http://instagram.com/p/Cc37PSTpRWy/embed" scrolling="yes" frameborder="0" style={{top:"95px"}}></iframe>
+        <iframe width="200"  height="250" src="http://instagram.com/p/Cc37PSTpRWy/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
         </div> 
 
         <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CcoeiRbpygz/embed" scrolling="yes" frameborder="0" style={{top:"95px"}}></iframe>
+        <iframe width="200"  height="250" src="http://instagram.com/p/CcoeiRbpygz/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
         </div> 
 
         <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CTM6RMXreDX/embed" scrolling="yes" frameborder="0" style={{top:"95px"}}></iframe>
+        <iframe width="200"  height="250" src="http://instagram.com/p/CTM6RMXreDX/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
         </div> 
       </div> 
     </div> 
