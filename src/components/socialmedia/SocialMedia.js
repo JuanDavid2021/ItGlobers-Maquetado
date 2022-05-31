@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Card } from '../Card/Card'
+
+import { InstagramContext } from '../context/dataInstagram'
 import Form  from './FormInput'
 import "./SocialMedia.css"
 
+
 export const SocialMedia = () => {
+
+  const {photos} = useContext(InstagramContext)
+
   return (
     <div>
      <div className='title_social'>   
@@ -12,40 +19,15 @@ export const SocialMedia = () => {
         </a>
      </div>
  
-     <div className='grid1'>
-     <div className='container1'> 
-        <div>
-        <iframe width="200"  height="250" src="http://instagram.com/p/CeABdbqtSxP/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
-        </div> 
-
-        <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CeCmSvtNTYa/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
-        </div> 
-
-        <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CdzExWiu2qf/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
-        </div> 
-      </div> 
-    </div>  
- 
-    <div className='grid2'>
-     <div className='container2'> 
-        <div>
-        <iframe width="200"  height="250" src="http://instagram.com/p/Cc37PSTpRWy/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
-        </div> 
-
-        <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CcoeiRbpygz/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
-        </div> 
-
-        <div >
-        <iframe width="200"  height="250" src="http://instagram.com/p/CTM6RMXreDX/embed" scrolling="yes" frameBorder="0" style={{top:"95px"}}></iframe>
-        </div> 
-      </div> 
-    </div> 
+      <div className='instagram'>
+          {
+           photos.data?.slice(0,6).map(img=>(
+             <Card img={img} key={img.id}/>  
+           ))  
+         }
+      </div>
       
 
-  
      <div className='title_social2'>
       <p>NEWSLETTER</p>
         <h1>SUSCRIBETE</h1>

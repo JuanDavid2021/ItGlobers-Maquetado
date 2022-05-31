@@ -12,6 +12,13 @@ margin-top: 150px;
  color:white;
 }
 
+.btn button:hover{
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+}
+
 .inputs{
   text-align: center;
   margin-top: 200px;
@@ -35,7 +42,7 @@ margin-top: 150px;
 .title{
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   text-shadow: rgba(0, 0, 0, 0.317) 2px 2px 2px
 }
 

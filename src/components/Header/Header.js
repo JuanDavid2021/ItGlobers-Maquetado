@@ -17,18 +17,6 @@ export const Header = () => {
       <button>SHOP</button>
       </div>
 
-        <article className='inputs'>
-        <label>
-                <input type="radio" name="color" />
-            </label>
-            <label>
-                <input type="radio" name="color" /> 
-            </label>
-            <label>
-                <input type="radio" name="color" /> 
-            </label>
-        </article>
-
     </div>
   )
 }

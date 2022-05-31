@@ -9,22 +9,32 @@ export const Navbar = () => {
     <div className='navbar'>
        <img src="./assets/logos/puffi_white.png" className='logo'></img>
        <ul className='menuProducts'>
-            <li>
-                <img src="./assets/logos/pufi_puff.png" className='icon'/>    
-                <Link to="pufi_puff" smooth="true" className="product" duration={1500}>PUFI PUFF</Link>  
+            <li>  
+                <Link to="pufi_puff" smooth="true" className="product" duration={1500}>
+                  <img src="./assets/logos/pufi_puff.png" className='icon'/>  
+                  PUFI PUFF
+                </Link>  
             </li>
 
             <li>
-                <img src="./assets/logos/pufi_rain.png" className='icon'/>     
-                <Link to="pufi_rain" smooth="true" className="product" duration={1500}>PUFI RAIN</Link>  
-                </li>
-                <li>
-                <img src="./assets/logos/pufi_cart.png" className='icon'/>     
-                <Link to="pufi_cart" smooth="true" className="product" duration={1500}>PUFI CART</Link>  
-                </li>
-                <li>
-                <img src="./assets/logos/pufi_nap.png" className='icon'/>     
-                <Link to="pufi_nap" smooth="true" className="product" duration={1500}>PUFI NAP</Link>  
+                <Link to="pufi_rain" smooth="true" className="product" duration={1500}>
+                  <img src="./assets/logos/pufi_rain.png" className='icon'/>     
+                  PUFI RAIN
+                </Link>  
+           </li>
+
+            <li>    
+                <Link to="pufi_cart" smooth="true" className="product" duration={1500}>
+                  <img src="./assets/logos/pufi_cart.png" className='icon'/> 
+                  PUFI CART
+                </Link>  
+           </li>
+            
+            <li>
+                <Link to="pufi_nap" smooth="true" className="product" duration={1500}>
+                  <img src="./assets/logos/pufi_nap.png" className='icon'/>     
+                  PUFI NAP
+                </Link>  
             </li>
 
         </ul> 

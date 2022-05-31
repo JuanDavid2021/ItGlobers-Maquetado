@@ -1,18 +1,4 @@
 
-.container1{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  position:relative;
-  top:-50px
-}
-
-.container2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  position:relative;
-  top:-55px
-}
-
 .form input{
   margin-left: 450px;
   width:600px;
@@ -23,31 +9,13 @@
   margin-left: 450px;
 }
 
-.gallery{
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- margin-left: 500px;
- margin-right: 500px; 
- text-align: center; 
-}
-.gallery img{
-  width:200px; 
-  
-}
+.instagram{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  padding-left:20%;
+  padding-right: 20%;
+  margin-top: -400px;
 
-.grid1{
-  overflow: hidden;
-  position:absolute;
-  margin-left: 450px;
-  margin-top:-400px;
-}
-
-.grid2{
-
-  overflow: hidden;
-  position:absolute;
-  margin-left: 450px;
-  margin-top:-200px;
 }
 
 .input{

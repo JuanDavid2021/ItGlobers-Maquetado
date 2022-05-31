@@ -1,27 +1,31 @@
 import React from 'react';
 import "./Footer.css"
 
+
+
 export const Footer = () => {
+
+
   return (
     <div className='footer'>
         <div className='logoFooter'>
             <img src="./assets/logos/puffi_footer.jpg"/>
         </div>
-
+       
         <div>
             <p>PUFI RAIN</p>
             <p>PUFI PUFF</p>
             <p>PUFI CART</p>
             <p>PUFI NAP</p>
         </div>
-
+    
         <div>
             <p>CONTACTO</p>
             <p>AYUDA</p>
             <p>CÓMO COMPRAR</p>
             <p>TERMINOS Y CONDICIONES</p>
         </div>
-
+         
         <div>
             <p>COMPRA 100% SEGURA</p>
             <div className='compra'>
