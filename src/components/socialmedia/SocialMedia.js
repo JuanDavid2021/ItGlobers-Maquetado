@@ -14,7 +14,7 @@ export const SocialMedia = () => {
     <div>
      <div className='title_social'>   
         <p>INSTAGRAM</p>
-        <a href="https://www.instagram.com/tiendasjumbocolombia/" target="_blank">
+        <a href="https://www.instagram.com/tecnologiayprogramacion2022/" target="_blank">
         <h1>#ESPUFI</h1>
         </a>
      </div>
